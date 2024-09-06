@@ -1,0 +1,27 @@
+1. var sub_value = ()=>{
+  console.log("first");
+  console.log("two")
+}
+sub_value();
+
+2. var my_name="dhruv"
+var age=18
+console.log("my name is" +my_name+ "and my age is"+age);
+console.log(`my name is ${my_name} and my age is ${age}`)
+console.log("my name is", my_name, "and my age is", age)s
+
+3. let new_obj = {name:"dhruv",age:18}
+let {name,age} = {name:"dhruv",age:18}
+console.log(age)
+
+4. const numbers = new Set();
+numbers.add(1);
+numbers.add(2);
+numbers.add(1);
+numbers.add({key:"value"});
+numbers.add(function myname(){});
+numbers.add({key:"diff_value"});
+numbers.add("5");
+numbers.add("5");
+console.log(numbers)
+// same contents are not add in set

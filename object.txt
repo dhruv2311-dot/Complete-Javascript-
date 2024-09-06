@@ -1,0 +1,12 @@
+1. var user_object=[{roll:1,name:"dhruv",student_mobile:8849277382}]
+for(i=0;i<=user_object.length;i++){
+  
+}
+console.log(user_obj1)
+
+2. var user_object= [{roll:1, name:"jatan",student_mobile:9988774455},
+{roll:2, name:"jenil",student_mobile:9988774455},
+{roll:3, name:"jagtap",student_mobile:97541328},
+{roll:4, name:"jagjeet",student_mobile:{self:6541239788, parents:854123669}}]
+
+console.log(user_object[3].student_mobile.self)

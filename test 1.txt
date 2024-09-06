@@ -1,0 +1,90 @@
+1. Demonstrate the difference between Let Var and Const through an example.
+
+2. write a program to print factorial of a number using do while loop
+
+3. write a program to print all even numbers between 4 to 100 in descending order(example: 100, 98, 96)
+
+4. Create a grading system using if..else statement
+    for marks below 50, Grade E(Fail)
+    for 50-60 marks. Grade D
+    for 61-70 marks. Grade C
+    for 71-80 marks. Grade B
+    for 81-100 marks. Grade A
+
+5. Write a program to tell if the given number is Prime or not!
+
+6. Write a program to print table of any given number using while loop.
+
+7. Write a function to print all the odd numbers from a given array. 
+
+8. Write a program to find array length without using any inbuilt function, like array.length
+
+9. WAP to print Fibonacci series.{You can use google}
+
+
+
+1) ans: console.log(number);
+var number=11;  
+let number=12;
+console.log(number);
+
+3) ans: for(var i=100;i>=4;i=i-2){
+  console.log(i);
+}
+
+6) ans: var i=2;
+while(i<=20){
+  console.log(i);
+  i=i+2;
+}
+
+4) ans: var number=69;
+if(number>=0,number<50){
+  console.log("gradeE");
+}else if(number<60){
+  console.log("gradeD");
+}else if(number<70){
+  console.log("gradeC");
+}else if(number<80){
+  console.log("gradeB");
+}else{
+  console.log("gradeA");
+}
+
+9) ans:  const number = 10;
+let n1 = 0, n2 = 1, nextTerm;
+
+console.log('Fibonacci Series:');
+
+for (let i = 1; i <= number; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
+
+5) ans: var number=;
+var count=0;
+for(var i=2;i<number;i++){
+  if(number%i==0){
+    count=count+1
+  }
+}
+if(count>0){
+  console.log(number," not prime")
+}else{
+  console.log(number," prime")
+}
+
+2) ans: var factorial_number=1;
+var i=5;
+while(i>0){
+  factorial_number=factorial_number*i;
+  i=i-1;
+}
+console.log(factorial_number);
+
+7) ans: var number=[1,3,5,7,9,11,13,15,17,19]
+for(var i=1;i<20;i=i+2){
+  console.log(i);
+}

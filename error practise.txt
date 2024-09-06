@@ -1,0 +1,89 @@
+1. function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, "10"));
+error - console.log(add(5, Number("10")));
+
+2. for (var i = 0; i < 5; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 1000);
+}
+error - for (let i = 0; i < 5; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 1000);
+}
+
+3.let x = 10;
+let y = 20;
+if (x = y) {
+    console.log("x is equal to y");
+}
+
+4. function isEven(number) {
+    if (number % 2 === 0) {
+        console.log("Even");
+    } else {
+        console.log("Odd");
+    }
+}
+
+let result = isEven(5);
+console.log(result);
+
+5. let num = 10;
+let str = "10";
+6. function add(a, b) {
+    return a + b;
+
+console.log(num + str);
+}
+console.log(add(2));
+7. function divide(a, b) {
+    if (b === 0) {
+        throw 'Cannot divide by zero';
+    }
+    return a / b;
+}
+console.log(divide(10, 0));
+
+8. let person = {
+    name: 'Bob',
+    age: 30,
+    greet() {
+        return 'Hello, ' + this.name;
+    }
+};
+console.log(person.greet);
+
+9. let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+10. function multiply(a, b) {
+  a * b;
+}
+
+console.log(multiply(3, 4));
+
+11. let person = {
+  name: "John",
+  age: 30
+};
+
+person.age = "thirty";
+
+console.log(person);
+
+12.  let person = {
+  name: "Alice",
+  greet: function() {
+    console.log("Hello, " + this.name);
+  }
+};
+
+let greetFunction = person.greet;
+greetFunction();
+

@@ -1,0 +1,32 @@
+1.  function cal_attendance(num1,num2){
+  console.log(num1);
+  console.log(num2);
+}
+cal_attendance(42,42);
+cal_attendance(90);
+cal_attendance(null,90);
+
+
+2. function cal_attendence(num){
+  console.log("calculate attendence")
+  var i=1;
+  for(;i<=num;i=i+1){
+    console.log(i);
+  }
+}
+cal_attendence(43);
+cal_attendence(10); 
+
+3.  var student_count=55;
+function cal_attendance(number){
+  for(var i=1;i<number;i=i+1){
+    console.log(i);
+  }
+}
+if(student_count>60){
+  console.log("entry denied");
+}else if(student_count<0){
+  console.log("invalid number");
+}else{
+  cal_attendance(student_count)
+}
